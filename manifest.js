@@ -9,7 +9,8 @@
   'longest_palindrome',
   'romanNums',
   'contigSum',
-  'maxCostPath'
+  'maxCostPath',
+  'reverseString'
 ].forEach(test => {
   require(`./challenges/${test}/${test}.spec.js`);
 });
