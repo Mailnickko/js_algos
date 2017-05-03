@@ -11,7 +11,8 @@
   'contigSum',
   'maxCostPath',
   'reverseString',
-  'rotateMatrix'
+  'rotateMatrix',
+  'powerSet'
 ].forEach(test => {
   require(`./challenges/${test}/${test}.spec.js`);
 });
