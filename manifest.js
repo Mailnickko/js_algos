@@ -10,7 +10,8 @@
   'romanNums',
   'contigSum',
   'maxCostPath',
-  'reverseString'
+  'reverseString',
+  'rotateMatrix'
 ].forEach(test => {
   require(`./challenges/${test}/${test}.spec.js`);
 });
