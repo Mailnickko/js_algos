@@ -12,7 +12,8 @@
   'maxCostPath',
   'reverseString',
   'rotateMatrix',
-  'powerSet'
+  'powerSet',
+  'recursiveArrSum'
 ].forEach(test => {
   require(`./challenges/${test}/${test}.spec.js`);
 });
